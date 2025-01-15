@@ -1,19 +1,22 @@
-Algoritmo Presentación
+Algoritmo PresentaciÃ³n
 	//Comando "Escribir" me ayuda a imprimir un mensaje en terminal.
-	Escribir "¿Cuál es tu nombre?"
+	Escribir "Â¿CuÃ¡l es tu nombre?"
 	Leer name
 	Escribir "Tu nombre es: ", name
-	Escribir "¿Cómo te apellidas (apellido paterno)?"
+//------------------------------------------------------------------------------------------------------------------------------------------------
+	Escribir "Â¿CÃ³mo te apellidas (apellido paterno)?"
 	Leer lastname
 	Escribir "Tu apellido (paterno) es: ", lastname
-	Escribir "¿Cuál es tu hobby?"
+//------------------------------------------------------------------------------------------------------------------------------------------------
+	Escribir "Â¿CuÃ¡l es tu hobby?"
 	Leer hobby
 	Escribir "Tu hobby es: ", hobby
-	Escribir "¿En qué año naciste?"
+//------------------------------------------------------------------------------------------------------------------------------------------------
+	Escribir "Â¿En quÃ© aÃ±o naciste?"
 	Leer anio
-	Escribir "Tú edad es: ", (2025 - anio)
-	//Otra manera de procesar datos.
-	Escribir "¿Cuál es tu número favorito?"
+	Escribir "TÃº edad es: ", (2025 - anio)
+//------------------------------------------------------------------------------------------------------------------------------------------------
+	Escribir "Â¿CuÃ¡l es tu nÃºmero favorito?"
 	Leer numeroFavorito
-	Escribir "Tu número favorito es: ", numeroFavorito
+	Escribir "Tu nÃºmero favorito es: ", numeroFavorito
 FinAlgoritmo
