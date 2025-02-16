@@ -1,8 +1,8 @@
 Algoritmo pinoMenu
 	Repetir
 		Limpiar Pantalla
-		Escribir "¿Quieres ver un pino de navidad?"
-		Escribir "   1. Sí"
+		Escribir "Â¿Quieres ver un pino de navidad?"
+		Escribir "   1. SÃ­"
 		Escribir "   2. No"
 		Leer r
 		Escribir ""
@@ -26,16 +26,16 @@ Algoritmo pinoMenu
 				Escribir "          *****          "
 				Escribir ""
 				Repetir
-					Escribir "¿Te gustó?"
-					Escribir "   1. Sí"
+					Escribir "Â¿Te gustÃ³?"
+					Escribir "   1. SÃ­"
 					Escribir "   2. No"
 					Leer r2
 					Escribir ""
 					segun r2 Hacer
 						1:
-							Escribir "¡GRACIAS! Aprecio tu opinión :D"
+							Escribir "Â¡GRACIAS! Aprecio tu opiniÃ³n :D"
 						2:
-							Escribir "Tú tampoco me agradas"
+							Escribir "TÃº tampoco me agradas"
 							Escribir ""
 							Escribir " \\               / "
 							Escribir "  \\   |--|      /  "
@@ -47,31 +47,31 @@ Algoritmo pinoMenu
 							Escribir " //               \ "
 							Escribir ""
 						De otro modo:
-							Escribir "Opción no válida"
+							Escribir "OpciÃ³n no vÃ¡lida"
 					FinSegun
 				Hasta Que r2=1 o r2=2
 			2:
 				Repetir 
 					Limpiar Pantalla
-					Escribir "¿Cuál es el motivo?"
-					Escribir "   1. Ya lo ví :D"
+					Escribir "Â¿CuÃ¡l es el motivo?"
+					Escribir "   1. Ya lo vÃ­ :D"
 					Escribir "   2. Los pinos de navidad son aburridos >:v"
-					Escribir "   3. ¡Quiero hacer uno yo mismo!"
+					Escribir "   3. Â¡Quiero hacer uno yo mismo!"
 					Leer r3
 					Escribir ""
 					Segun r3 Hacer
 						1:
 							Repetir
 								Limpiar Pantalla
-								Escribir "¿Te gustó?"
-								Escribir "   1. Sí"
+								Escribir "Â¿Te gustÃ³?"
+								Escribir "   1. SÃ­"
 								Escribir "   2. No"
 								Leer r4
 								segun r4 Hacer
 									1:
-										Escribir "¡GRACIAS! Aprecio tu opinión :D"
+										Escribir "Â¡GRACIAS! Aprecio tu opiniÃ³n :D"
 									2:
-										Escribir "Tú tampoco me agradas"
+										Escribir "TÃº tampoco me agradas"
 										Escribir ""
 										Escribir " \\               / "
 										Escribir "  \\   |--|      /  "
@@ -83,11 +83,11 @@ Algoritmo pinoMenu
 										Escribir " //               \ "
 										Escribir ""
 									De otro modo:
-										Escribir "Opción no válida"
+										Escribir "OpciÃ³n no vÃ¡lida"
 								FinSegun
 							Hasta Que r4=1 o r4=2
 						2:
-							Escribir "Tú eres aburrido"
+							Escribir "TÃº eres aburrido"
 							Escribir ""
 							Escribir " \\               / "
 							Escribir "  \\   |--|      /  "
@@ -99,12 +99,12 @@ Algoritmo pinoMenu
 							Escribir " //               \ "
 							Escribir ""
 						De otro modo:
-							Escribir "Opción no válida"
+							Escribir "OpciÃ³n no vÃ¡lida"
 						3:
-							Escribir "¿Cuántos niveles quieres que tenga tu pino de navidad?"
+							Escribir "Â¿CuÃ¡ntos niveles quieres que tenga tu pino de navidad?"
 							Leer lvls
 							Escribir ""
-							// lvls = levels = niveles (en inglés)
+							// lvls = levels = niveles (en inglÃ©s)
 							i<-1
 							p<-1 // p = pino
 							endLvl<-((2 * lvls) - 1)
@@ -114,17 +114,17 @@ Algoritmo pinoMenu
 								// lvl = level = nivel
 								bs <- (((endLvl - p) / 2) + 1)
 								// bs = blank space
-								//Calculo de los espacios en blanco del lado izquierdo de la línea:
+								//CÃ¡lculo de los espacios en blanco del lado izquierdo de la lÃ­nea:
 								Para l<-1 Hasta bs Con Paso 1 Hacer
 									// l = left = izquierda
 									lvl<-lvl + " "
 								FinPara
-								//Calculo de los asteriscos en el centro de la linea:
+								//CÃ¡lculo de los asteriscos en el centro de la linea:
 								Para c<-1 Hasta p Con Paso 1 Hacer
 									// c = center = centro
 									lvl<-lvl + "*"
 								FinPara
-								//Calculo de los espacios en blanco del lado derecho de la línea:
+								//CÃ¡lculo de los espacios en blanco del lado derecho de la lÃ­nea:
 								Para r<-1 Hasta bs Con Paso 1 Hacer
 									lvl<-lvl + " "
 								FinPara
